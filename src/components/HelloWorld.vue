@@ -46,7 +46,7 @@
           <p contenteditable>PRO</p>
         </div>
         <div class="row">
-          <p class="title">Zoin:</p>
+          <p class="title">Zone:</p>
           <p contenteditable>Benin Zoin 1</p>
         </div>
         <div class="row">
