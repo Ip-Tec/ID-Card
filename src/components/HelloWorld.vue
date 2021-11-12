@@ -54,6 +54,7 @@
           <p contenteditable>Edo State</p>
         </div>
       </div>
+      <p style="margin: auto; width: 100%">https://nawp.netlify.app</p>
     </div>
   </div>
   <a id="download" download="NAWP">
