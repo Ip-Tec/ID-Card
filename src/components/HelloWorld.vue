@@ -47,7 +47,7 @@
         </div>
         <div class="row">
           <p class="title">Zone:</p>
-          <p contenteditable>Benin Zoin 1</p>
+          <p contenteditable>Benin Zone 1</p>
         </div>
         <div class="row">
           <p class="title">State:</p>
