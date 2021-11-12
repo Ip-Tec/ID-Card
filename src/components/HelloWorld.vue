@@ -2,9 +2,9 @@
   <div class="hello">
     <div class="b"></div>
     <div class="header">
-      <h4>{{ msg }}</h4>
-      <h4>[NAWP]</h4>
-      <p>Bad thing they sweet</p>
+      <h4 contenteditable>{{ msg }}</h4>
+      <h4 contenteditable>[NAWP]</h4>
+      <p contenteditable>Bad thing they sweet</p>
     </div>
     <div>
       <div class="imgDiv">
@@ -34,7 +34,7 @@
       <div>
         <div class="row">
           <p class="title" style="font-size: xxsmall">
-            ID Number: <span> {{ randomNumber }} </span>
+            ID Number: <span contenteditable> {{ randomNumber }} </span>
           </p>
         </div>
         <div class="row">
