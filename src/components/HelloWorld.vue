@@ -130,7 +130,7 @@ export default {
 <style scoped>
 .body{
 margin: 3rem;
-padding: 3.5rem;
+padding: 3rem;
 }
 div.hello::after {
   content: "";
