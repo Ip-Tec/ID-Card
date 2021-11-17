@@ -129,8 +129,8 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .body{
-margin: 2rem;
-padding: 1rem;
+margin: 3rem;
+padding: 3.5rem;
 }
 div.hello::after {
   content: "";
