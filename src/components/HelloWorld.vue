@@ -1,4 +1,5 @@
 <template>
+<div class="body">
   <div class="hello">
     <div class="b"></div>
     <div class="header">
@@ -57,6 +58,7 @@
       <p style="margin: auto; width: 100%">https://nawp.netlify.app</p>
     </div>
   </div>
+</div>
   <a id="download" download="NAWP">
     <button @click="Download">Download</button>
   </a>
@@ -99,7 +101,7 @@ export default {
       reader.readAsDataURL(files[0]);
     },
     Download() {
-      html2canvas(document.querySelector(".hello")).then((canvas) => {
+      html2canvas(document.querySelector(".body")).then((canvas) => {
         var ims = canvas.toDataURL("image/jpeg", 1.0);
         var mom = document.querySelector("#download");
         mom.download = "NAWP.png";
@@ -126,6 +128,10 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.body{
+margin: 2rem;
+padding: 1rem;
+}
 div.hello::after {
   content: "";
   top: 10rem;
